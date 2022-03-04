@@ -1,7 +1,10 @@
-#attach the dataset to the envronment
+#More about the iris dataset
+?iris
+
+#attach the dataset to the environment
 data("iris")
 #rename your dataset
-datasetIris <- iris
+datasetIrisOne <- iris
 
 #Summarize a dataset
 # 1. Dimensions of the dataset.
@@ -12,8 +15,8 @@ datasetIris <- iris
 # 6. Statistical summary of all attributes.
 
 # 1. Dimensions of the dataset.
-dim(datasetIris)
-
+dim(datasetIrisOne)
+View(datasetIrisOne)
 # 2. Types of the attributes.
 #list types for each attribute
 sapply(datasetIris, class)
@@ -30,7 +33,7 @@ tail(datasetIris, 3) # displays DATA for last 3 rows
 
 # 4. Levels of the class attribute.
 #list the levels/labels that our dataset had
-levels(datasetIris$Species)
+levels(datasetIrisOne$Species)
 
 # 5. Breakdown of the instances in each class.
 #summarize the class attributes
@@ -40,7 +43,7 @@ cbind(freq=table(datasetIris$Species), percentage=Total)
 
 
 # 6. Statistical summary of all attributes.
-summary(datasetIris)
+summary(datasetIrisOne)
 
 
 
