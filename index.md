@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Statistical Model Building
 
 You can use the [editor on GitHub](https://github.com/bonnyopiyo/all_you_need_to_know_about-r_programming/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
